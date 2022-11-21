@@ -9,5 +9,7 @@ public class Main {
         System.out.println("welson".equals("welson"));
         //Arithmetic
         System.out.println("15"+"15");
+        System.out.println((15 + "15").getClass().getName());
+        System.out.println(15 + 15 + "15" + 15 + 15);//優先先計算前方在轉型String串接
     }
 }
