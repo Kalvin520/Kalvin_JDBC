@@ -7,5 +7,7 @@ public class Main {
         System.out.println(true || true);//OR conditional operator
         //equal
         System.out.println("welson".equals("welson"));
+        //Arithmetic
+        System.out.println("15"+"15");
     }
 }
