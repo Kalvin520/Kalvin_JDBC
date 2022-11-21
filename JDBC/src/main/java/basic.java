@@ -1,4 +1,4 @@
-public class Main {
+public class basic {
     public static void main(String[] args) {
         String age = "25";
         System.out.println(Integer.parseInt(age));//轉整數
@@ -15,8 +15,8 @@ public class Main {
         System.out.println(15 + 15 + "15" + 15 + 15);//優先先計算前方在轉型String串接
         //Number * String
         //System.out.println("hello" * 10);//不允許的
-
         //float / int
         System.out.println(9.0/ 10);
+
     }
 }
