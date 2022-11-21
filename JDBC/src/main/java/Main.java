@@ -7,9 +7,13 @@ public class Main {
         System.out.println(true || true);//OR conditional operator
         //equal
         System.out.println("welson".equals("welson"));
-        //Arithmetic
+        //Arithmetic operator
+        //String + String
         System.out.println("15"+"15");
+        //Number + String
         System.out.println((15 + "15").getClass().getName());
         System.out.println(15 + 15 + "15" + 15 + 15);//優先先計算前方在轉型String串接
+        //Number * String
+        //System.out.println("hello" * 10);//不允許的
     }
 }
