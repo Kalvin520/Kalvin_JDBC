@@ -5,6 +5,7 @@ public class Main {
         System.out.println(4 != 3);//Relational operator
         System.out.println(true && false && (5 > 3));//AND conditional operator
         System.out.println(true || true);//OR conditional operator
-
+        //equal
+        System.out.println("welson".equals("welson"));
     }
 }
