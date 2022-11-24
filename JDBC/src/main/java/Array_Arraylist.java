@@ -30,7 +30,7 @@ public class Array_Arraylist {
         int[][] array_2D = new int[4][3];
         array_2D[2][0] = 10;
         array_2D[0][2] = 3;
-        
+
 
     }
 }
