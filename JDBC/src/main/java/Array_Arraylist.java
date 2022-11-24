@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class Array_Arraylist {
     public static void main(String[] args) {
@@ -9,9 +11,20 @@ public class Array_Arraylist {
 //            System.out.println(friends1);
 //        }
 
-        ArrayList<String> friend2 = new ArrayList<>();
-        friend2.add("Mike");
-        friend2.add("Grace");
-        friend2.add("Naleo");
+        //Arraylist(1)
+        // add(), size(), get(), Collection.sort()
+//        ArrayList<String> friends2 = new ArrayList<>();
+//        friends2.add("Mike");
+//        friends2.add("Grace");
+//        friends2.add("Naleo");
+//        friends2.add("Abigail");
+//        Collections.sort(friends2);
+//        System.out.println(friends2);
+//        friends2.clear();
+//        System.out.println(friends2.size());
+
+        //Multi-dimensional array
+        
+
     }
 }
