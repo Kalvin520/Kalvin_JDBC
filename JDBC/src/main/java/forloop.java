@@ -5,7 +5,7 @@ public class forloop {
             System.out.println(friends[i]+ "is my friend.");
         }
         //for each loop
-      for(String i : friends){
+        for(String i : friends){
             System.out.println(i + "is my friend.");
         }
     }
