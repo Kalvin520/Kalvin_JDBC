@@ -9,14 +9,11 @@ public class LoopLab extends JPanel {
 
         int w = getWidth();
         int h = getHeight();
-
-
-
     }
     public static void main(String[] args) {
         JFrame window = new JFrame();
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        window.setSize(400,400);
+        window.setSize( 400,400);
         window.setContentPane(new LoopLab());
         window.setVisible(true);
     }
