@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
+import java.util.Locale;
 
 public class LoopLab extends JPanel {
     String type;
@@ -16,14 +17,36 @@ public class LoopLab extends JPanel {
         int x = 0;//初始x
         int y = 0;//初始y
         int cellWidth = w / n;  //每格寬度
-        int cellHeight = h / n; //每隔高度
+        int cellHeight = h / n; //每格高度
 
         //nested for loop
         //table是從1開始 int i = 1
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n; j++) {
-                graphics.setColor(Color.pink);
+                if (i == 1 || j == 1 ){
+                    //黃底
+                    graphics.setColor(Color.yellow);
+                    graphics.fillRect(x, y, cellWidth, cellHeight);
+                }
+                //外層黑匡
+                graphics.setColor(Color.black);
                 graphics.drawRect(x, y, cellWidth, cellHeight);
+
+                if (i == 1){
+                    graphics.drawString("" + j, x + 5, y + 20 );//抓j直
+                } else if (j == 1) {
+                    graphics.drawString("" + i , x + 5, y + 20 );//抓i直
+                }else {
+                    int value;
+                    if (type.toLowerCase().equals("A")){
+                        value = i + j;
+                    }
+                    else {
+                        value = i * j;
+                    }
+                    graphics.drawString("" + value, x + 5, y + 20 );//設定筐內文字座標高度
+                }
+
                 x += cellWidth;
             }
             x = 0;
