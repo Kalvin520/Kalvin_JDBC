@@ -2,13 +2,38 @@ import javax.swing.*;
 import java.awt.*;
 
 public class LoopLab extends JPanel {
+    String type;
+    int n;
+     public  LoopLab(){
+         type = JOptionPane.showInputDialog("Do you want an addition table or multiplication table? (A or M)");
+         n = Integer.parseInt(JOptionPane.showInputDialog("How big do you want the table to be?"));//要多少格
+     }
     @Override
     public void paintComponent(Graphics graphics){
-        String type = JOptionPane.showInputDialog("Do you want an addition table or multiplication table? (A or M)");
-        int n = Integer.parseInt(JOptionPane.showInputDialog("How big do you want the table to be?"));
 
         int w = getWidth();
         int h = getHeight();
+        int x = 0;//初始x
+        int y = 0;//初始y
+        int cellWidth = w / n;  //每格寬度
+        int cellHeight = h / n; //每隔高度
+
+        //nested for loop
+        //table是從1開始 int i = 1
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
+                graphics.setColor(Color.pink);
+                graphics.drawRect(x, y, cellWidth, cellHeight);
+                x += cellWidth;
+            }
+            x = 0;
+            y += cellHeight;
+        }
+
+
+
+
+
     }
     public static void main(String[] args) {
         JFrame window = new JFrame();
