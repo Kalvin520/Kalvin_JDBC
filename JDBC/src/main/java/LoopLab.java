@@ -38,7 +38,7 @@ public class LoopLab extends JPanel {
                     graphics.drawString("" + i , x + 5, y + 20 );//抓i直
                 }else {
                     int value;
-                    if (type.toLowerCase().equals("A")){
+                    if (type.toLowerCase().equals("a")){
                         value = i + j;
                     }
                     else {
