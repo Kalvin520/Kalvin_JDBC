@@ -1,3 +1,5 @@
+package ch1;
+
 public class break_continue {
     public static void main(String[] args) {
         //breakm continue => loop

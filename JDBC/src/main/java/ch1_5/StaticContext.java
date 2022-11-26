@@ -1,2 +1,4 @@
-package ch1_5;public class StaticContext {
+package ch1_5;
+
+public class StaticContext {
 }

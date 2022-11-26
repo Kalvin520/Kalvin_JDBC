@@ -1,3 +1,5 @@
+package ch1;
+
 public class Method {
 
     public Method(){

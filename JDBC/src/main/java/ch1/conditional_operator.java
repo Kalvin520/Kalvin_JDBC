@@ -1,3 +1,5 @@
+package ch1;
+
 public class conditional_operator {
     public static void main(String[] args) {
         int age = 20;

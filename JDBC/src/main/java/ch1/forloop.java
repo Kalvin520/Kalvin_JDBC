@@ -1,3 +1,5 @@
+package ch1;
+
 public class forloop {
     public static void main(String[] args) {
         String[] friends = {"Mike", "Grace", "Spencer", "Nal", "Abigail" };

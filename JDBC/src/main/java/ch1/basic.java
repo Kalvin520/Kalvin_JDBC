@@ -1,3 +1,5 @@
+package ch1;
+
 public class basic {
     public static void main(String[] args) {
         String age = "25";
