@@ -1,7 +1,8 @@
 import javax.swing.*;
 import java.awt.*;
-import java.util.Locale;
-
+/**
+ * @author kalvin
+ */
 public class LoopLab extends JPanel {
     String type;
     int n;
@@ -46,22 +47,16 @@ public class LoopLab extends JPanel {
                     }
                     graphics.drawString("" + value, x + 5, y + 20 );//設定筐內文字座標高度
                 }
-
                 x += cellWidth;
             }
             x = 0;
             y += cellHeight;
         }
-
-
-
-
-
     }
     public static void main(String[] args) {
         JFrame window = new JFrame();
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        window.setSize( 400,400);
+        window.setSize( 720,720);
         window.setContentPane(new LoopLab());
         window.setVisible(true);
     }
