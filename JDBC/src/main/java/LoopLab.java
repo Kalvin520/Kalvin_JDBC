@@ -15,8 +15,8 @@ public class LoopLab extends JPanel {
 
         int w = getWidth();
         int h = getHeight();
-        int x = 0;//初始x
-        int y = 0;//初始y
+        int x = 0;//第一個筐x
+        int y = 0;//第一個筐y
         int cellWidth = w / n;  //每格寬度
         int cellHeight = h / n; //每格高度
 
@@ -30,7 +30,7 @@ public class LoopLab extends JPanel {
                     graphics.fillRect(x, y, cellWidth, cellHeight);
                 }
                 //外層黑匡
-                graphics.setColor(Color.black);
+                graphics.setColor(Color.pink);
                 graphics.drawRect(x, y, cellWidth, cellHeight);
 
                 if (i == 1){
@@ -39,7 +39,7 @@ public class LoopLab extends JPanel {
                     graphics.drawString("" + i , x + 5, y + 20 );//抓i直
                 }else {
                     int value;
-                    if (type.toLowerCase().equals("a")){
+                    if ("a".equals(type.toLowerCase())){
                         value = i + j;
                     }
                     else {
