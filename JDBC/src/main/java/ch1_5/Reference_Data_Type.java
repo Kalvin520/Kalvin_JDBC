@@ -22,7 +22,7 @@ public class Reference_Data_Type {
         //Java's primitive data type is used as sn actual parameter(a)
         //Java copy by value
 
-        
+
         //primitive data type
         //assignment operator => copy by value
 //        int a = 10;
