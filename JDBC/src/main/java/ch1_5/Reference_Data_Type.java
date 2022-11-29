@@ -1,5 +1,8 @@
 package ch1_5;
 
+/**
+ * @Author Kalvin
+ */
 public class Reference_Data_Type {
 
 //    public static int changeA(int x){
@@ -7,7 +10,6 @@ public class Reference_Data_Type {
 //        return x;
 //    }
     public static void main(String[] args) {
-        //Reference data type(non-primitive data type)
 //        int a = 10;
 //        changeA(a);
 //        System.out.println(a);
@@ -26,6 +28,8 @@ public class Reference_Data_Type {
 //        System.out.println(a + " " + b);
 
 
+        
+        //Reference data type(non-primitive data type)
         int[] myArray1 = {10, 20, 30};
         int[] muArray2 = myArray1; //copy by reference
         myArray1[0] = 100;
