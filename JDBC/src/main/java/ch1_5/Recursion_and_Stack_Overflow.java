@@ -5,7 +5,7 @@ public class Recursion_and_Stack_Overflow {
         if (i == 0){
             return;
         }
-        System.out.println("We hust enter printHi with i is " + i);
+        System.out.println("We just enter printHi with i is " + i);
         printHi(i - 1);
         System.out.println("We finished running printHi with i is " + i);
     }
