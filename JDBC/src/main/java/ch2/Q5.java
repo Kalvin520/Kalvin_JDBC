@@ -38,12 +38,12 @@ public class Q5 {
         end = System.currentTimeMillis();
         System.out.println("With for loop, the time difference is " + (end - start));
 
-        start = System.currentTimeMillis();
+        long start2 = System.currentTimeMillis();
         System.out.println(addUpTowithRecusive(10));
         System.out.println(addUpTowithRecusive(100));
         System.out.println(addUpTowithRecusive(1000));
         System.out.println(addUpTowithRecusive(10000));
-        end = System.currentTimeMillis();
-        System.out.println("With for loop, the time difference is " + (end - start));
+        long end2 = System.currentTimeMillis();
+        System.out.println("With Recusive, the time difference is " + (end2 - start2));
     }
 }
