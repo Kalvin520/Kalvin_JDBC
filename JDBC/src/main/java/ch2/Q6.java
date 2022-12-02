@@ -1,7 +1,5 @@
 package ch2;
-
-import javax.swing.plaf.synth.SynthTabbedPaneUI;
-
+// 找出大寫字母 && index
 public class Q6 {
     public static void position(String s){
         boolean found = false;

@@ -1,4 +1,5 @@
 package ch2;
+//計算1+2+3+.....+(n-1)
 public class Q5 {
     public static int addUpTowithFormula(int n){
         //等差級數 ((a1 + an) * n )/ 2
