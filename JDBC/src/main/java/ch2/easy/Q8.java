@@ -1,4 +1,4 @@
-package ch2;
+package ch2.easy;
 //  檢查array中是否有重複值
 //編寫一個名為“findDuplicate()”的函數，將一個整數array作為參數，並檢查array中是否有重複值。如果有，則return true，否則return false。
 public class Q8 {
