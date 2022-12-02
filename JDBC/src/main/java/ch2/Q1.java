@@ -1,5 +1,6 @@
 package ch2;
 //等差數列
+//編寫一個名為“printEvery3()”的函數，它打印出等差數列 1, 4, 7, …, 88。
 public class Q1 {
     public static void printEvery3(){
         int an  = 88; //末項

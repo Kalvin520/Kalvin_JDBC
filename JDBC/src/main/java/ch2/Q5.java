@@ -1,5 +1,6 @@
 package ch2;
 //計算1+2+3+.....+(n-1)
+//編寫一個名為"addUpTo()”的函數，參數為一個整數n，return type為int，return應為 1 + 2 + 3 + … + (n - 1) + n的值。
 public class Q5 {
     public static int addUpTowithFormula(int n){
         //等差級數 ((a1 + an) * n )/ 2

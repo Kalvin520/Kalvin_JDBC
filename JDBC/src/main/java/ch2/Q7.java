@@ -1,5 +1,6 @@
 package ch2;
 //  第一個input是否以第二個input結束
+//編寫一個名為“confirmEnding”的函數，它將 2 個String作為input，並返回一個boolean，該boolean指示第一個input是否以第二個input結束。
 public class Q7 {
         public static boolean confirmEnding(String s1, String s2){
             int i = s1.length() - 1;
