@@ -1,6 +1,7 @@
 package ch2.easy;
 // 陣列反轉
-//編寫一個名為"reverseArray()”的函數，參數為一個array of Integers，return type為int[]，返回的值為將array of Integers全部反轉後的新array。
+//編寫一個名為"reverseArray()”的函數，參數為一個array of Integers，return type為int[]，
+// 返回的值為將array of Integers全部反轉後的新array。
 public class Q4 {
     public static int[] reverseArray(int[] arr) {
         int[] CopyArray = new int[arr.length];
