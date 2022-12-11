@@ -1,4 +1,4 @@
-package ch2.easy;
+package testQ.easy;
 // 99乘法表
 //編寫一個名為“ninetable()”的函數，它打印出九九乘法表的內容。
 public class Q2 {

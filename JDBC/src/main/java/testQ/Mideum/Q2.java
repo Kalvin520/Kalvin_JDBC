@@ -1,4 +1,4 @@
-package ch2.Mideum;
+package testQ.Mideum;
 //輸入某年某月某日，讓程式判斷這一天是這一年的第幾天？使用者可以透過用System.in來給定年月日這三個數字。
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package ch2.easy;
+package testQ.easy;
 // 陣列反轉
 //編寫一個名為"reverseArray()”的函數，參數為一個array of Integers，return type為int[]，
 // 返回的值為將array of Integers全部反轉後的新array。

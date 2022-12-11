@@ -1,4 +1,4 @@
-package ch2.easy;
+package testQ.easy;
 // 找最大元素
 //編寫一個名為"findMax()”的函數，參數為一個array of Integers，return type為int，返回的值為array當中所有元素當中，最大的那個。
 public class Q3 {

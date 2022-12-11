@@ -1,4 +1,4 @@
-package ch2.easy;
+package testQ.easy;
 //編寫一個名為“findSmallCount()”的函數，它以一個整數array和一個整數n作為參數，並返回一個整數，表示array中有多少元素小於輸入整數n。
 public class Q10 {
     public static int findSmallCount(int[] arr, int n){

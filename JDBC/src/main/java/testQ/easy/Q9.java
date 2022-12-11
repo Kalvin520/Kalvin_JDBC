@@ -1,4 +1,4 @@
-package ch2.easy;
+package testQ.easy;
 //編寫一個名為"pyramid()”的函數，唯一的參數為一個大於0的整數，功能為打印出如下規律的金字塔:
 public class Q9 {
     public static void  pyramid(int n){

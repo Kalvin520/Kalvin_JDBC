@@ -1,4 +1,4 @@
-package ch2.Mideum;
+package testQ.Mideum;
 
 import java.util.Scanner;
 

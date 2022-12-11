@@ -1,4 +1,4 @@
-package ch2.easy;
+package testQ.easy;
 //  第一個input是否以第二個input結束
 //編寫一個名為“confirmEnding”的函數，它將 2 個String作為input，並返回一個boolean，該boolean指示第一個input是否以第二個input結束。
 public class Q7 {
