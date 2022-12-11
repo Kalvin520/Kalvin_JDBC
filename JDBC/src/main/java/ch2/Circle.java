@@ -5,6 +5,6 @@ public class Circle {
     //encapsulation
     private double radius2;
     public Circle(double newRadius) {
-        radius = newRadius;
+        radius1 = newRadius;
     }
 }
