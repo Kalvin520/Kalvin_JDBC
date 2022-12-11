@@ -1,10 +1,19 @@
 package ch2;
-
 public class Circle {
-    double radius1;
-    //encapsulation
-    private double radius2;
+
+    //Constructor method hava "method overloading"
+
+    public Circle(){
+
+    }
+
+    public double radius1;
     public Circle(double newRadius) {
         radius1 = newRadius;
     }
+
+
+
+    //encapsulation
+   // double radius;
 }
