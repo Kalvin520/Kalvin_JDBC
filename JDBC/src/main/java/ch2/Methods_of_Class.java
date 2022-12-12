@@ -18,6 +18,7 @@ public class Methods_of_Class {
         // Execute scanner class' constructor
         Scanner s = new Scanner(System.in);
         int x = s.nextInt();
+        
     }
 
 }
