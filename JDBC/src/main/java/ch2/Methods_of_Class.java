@@ -19,6 +19,8 @@ public class Methods_of_Class {
         Scanner s = new Scanner(System.in);
         int x = s.nextInt();
 
+
+
         
 
     }
