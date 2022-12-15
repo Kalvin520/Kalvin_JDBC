@@ -34,7 +34,7 @@ public class Circle {
     //encapsulation
    // double radius;
     public double getArea(){
-        return Circle.PI* Math.pow(this.radius1,2);
+            return Circle.PI* Math.pow(this.radius1,2);
 
     }
 
