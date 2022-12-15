@@ -3,15 +3,15 @@ public class Circle {
 
     // i's scope is the whole Circle.java
     private int i;
-    public double radius1;
+    double radius1;
     //Constructor method hava "method overloading"
 
     public Circle(){
-        radius1 = 1.0;
+        this(1.0);
     }
 
-    public Circle(double newRadius) {
-        radius1 = newRadius;
+    public Circle(double radius1) {
+        this.radius1 = radius1;
     }
 
     //encapsulation
@@ -19,7 +19,7 @@ public class Circle {
 
 
     public double getArea(){
-        return Math.PI * radius1 * radius1;
+        return Math.PI * Math.pow(this.radius1,2);
     }
 
 
