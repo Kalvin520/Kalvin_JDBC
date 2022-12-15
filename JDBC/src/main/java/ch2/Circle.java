@@ -2,7 +2,12 @@ package ch2;
 public class Circle {
 
     // i's scope is the whole Circle.java
+
     private int i;
+
+    // fields are usually private
+
+    private double radius2;
     double radius1;
     //Constructor method hava "method overloading"
 
@@ -17,10 +22,17 @@ public class Circle {
         this.radius1 = radius1;
     }
 
+
+    // method are usually public
+
+    public double getRadius2(){
+        return this.radius2 ;
+    }
+
+
+
     //encapsulation
    // double radius;
-
-
     public double getArea(){
         return Circle.PI* Math.pow(this.radius1,2);
 
