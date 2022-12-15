@@ -1,5 +1,8 @@
 package ch2;
 public class Circle {
+
+    // i's scope is the whole Circle.java
+    private int i;
     public double radius1;
     //Constructor method hava "method overloading"
 
@@ -18,4 +21,19 @@ public class Circle {
     public double getArea(){
         return Math.PI * radius1 * radius1;
     }
+
+
+
+
+    public void setI(){
+        i = 100; // i assignment
+
+        //int i = 100;
+        // i's scope is inside the method setI()
+    }
+
+    public void accessI(){
+        System.out.println(i);
+    }
+
 }
