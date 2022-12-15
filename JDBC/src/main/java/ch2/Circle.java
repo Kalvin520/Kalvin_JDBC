@@ -6,6 +6,9 @@ public class Circle {
     double radius1;
     //Constructor method hava "method overloading"
 
+
+     private static final double PI = 3.14;
+
     public Circle(){
         this(1.0);
     }
@@ -19,7 +22,8 @@ public class Circle {
 
 
     public double getArea(){
-        return Math.PI * Math.pow(this.radius1,2);
+        return Circle.PI* Math.pow(this.radius1,2);
+
     }
 
 
