@@ -12,4 +12,9 @@ public class Student extends People{
     public void learn(){
         System.out.println("Learning...");
     }
+
+    @Override
+    public void walk(){
+        System.out.println("A student is walking like a boss.");
+    }
 }

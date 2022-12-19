@@ -11,6 +11,10 @@ public class Inher {
         student1.walk();
         student1.sleep();
         student1.learn();
+
+        //Override後的walk
+        student1.walk();
+        teacher1.walk();
     }
 
 }
