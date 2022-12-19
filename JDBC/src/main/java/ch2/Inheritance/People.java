@@ -5,6 +5,11 @@ public class People {
     protected int age;
     protected String address;
 
+    public People(){
+        this.name = "Kalvin";
+        this.age  = 0;
+        this.address = "Taiwan";
+    }
     public People(String name, int age, String address){
         this.name = name;
         this.age = age;
@@ -18,4 +23,7 @@ public class People {
     public void sleep(){
         System.out.println("Sleeping...");
     }
+
+    public void printHello() { System.out.println("Hello from People class."); }
+
 }

@@ -8,7 +8,10 @@ public class Teacher extends People {
     }
 
     public void teach(){
+        super.printHello();
         System.out.println("Teaching " + subject + "...");
     }
 
+
+    
 }
