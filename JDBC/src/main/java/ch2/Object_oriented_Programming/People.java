@@ -1,4 +1,4 @@
-package ch2.Inheritance;
+package ch2.Object_oriented_Programming;
 
 public class People {
     protected String name;
@@ -26,8 +26,12 @@ public class People {
 
     public void printHello() { System.out.println("Hello from People class."); }
 
-    public boolean equal(){
-        
+    public boolean equal(Object objOverride){
+        if (objOverride instanceof People){
+            People person = (People) objOverride;
+            return this.age == person.age;
+        }
+        return false;
     }
 
 }

@@ -1,4 +1,4 @@
-package ch2.Inheritance.JPanel_JFrame_Inheritance;
+package ch2.Object_oriented_Programming.JPanel_JFrame_Inheritance;
 
 import javax.swing.*;
 import java.awt.*;

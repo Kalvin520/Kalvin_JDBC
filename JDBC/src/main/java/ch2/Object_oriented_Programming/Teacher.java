@@ -1,4 +1,4 @@
-package ch2.Inheritance;
+package ch2.Object_oriented_Programming;
 
 public class Teacher extends People {
     private String subject;
