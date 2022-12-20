@@ -26,4 +26,8 @@ public class People {
 
     public void printHello() { System.out.println("Hello from People class."); }
 
+    public boolean equal(){
+        
+    }
+
 }
