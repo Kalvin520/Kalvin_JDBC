@@ -11,12 +11,14 @@ public class Person {
     }
 
     public void talk(){
-        //when checking if something is null or not, we must use == or !=.
-        if (spouse != null) {
-            System.out.println("Hello, my name is " + name + " and my spouse is " + spouse.getName());
-        }else {
-            System.out.println("Hello, my name is " + name + " and I am not yet married.");
-        }
+
+        System.out.println("Hello, my name is " + name);
+//        //when checking if something is null or not, we must use == or !=.
+//        if (spouse != null) {
+//            System.out.println("Hello, my name is " + name + " and my spouse is " + spouse.getName());
+//        }else {
+//            System.out.println("Hello, my name is " + name + " and I am not yet married.");
+//        }
     }
 
     public void setSpouse(Person spouse) {
