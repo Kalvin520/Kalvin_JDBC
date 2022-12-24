@@ -1,2 +1,4 @@
-package ch2_5;public class ConcurrentModificationException {
+package ch2_5;
+
+public class ConcurrentModificationException {
 }
