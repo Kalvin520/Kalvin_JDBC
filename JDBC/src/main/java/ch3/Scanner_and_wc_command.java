@@ -14,7 +14,7 @@ public class Scanner_and_wc_command {
         int char_count = 0;
         try {
             Scanner s = new Scanner(f);
-            while (s.hasNext() && s.hasNextLine()){
+            while (s.hasNext() && s.hasNextLine()){//hasNextLine()在此掃描器的輸入中存在另一行返回 true   hasNext()判斷掃描器中當前掃描位置後是否還存在下一段
                 line_count++;
                 String line = s.nextLine();
                 String [] line_arr  = line.split(" ");
