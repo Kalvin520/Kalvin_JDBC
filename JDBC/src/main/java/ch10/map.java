@@ -1,6 +1,7 @@
 package ch10;
 
 
+import javax.xml.namespace.QName;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -13,10 +14,14 @@ public class map {
         incomeMap.put("Grace",60000);
 
         System.out.println("========================");
-
-        for (Map.Entry<String, Integer> entry : incomeMap.entrySet()){
-            System.out.println(entry.getKey() + ", " + entry.getValue());
-        }
+        //method 1
+//        for (Map.Entry<String, Integer> entry : incomeMap.entrySet()){
+//            System.out.println(entry.getKey() + ", " + entry.getValue());
+//        }
+        //method 2 Lambda寫法
+        incomeMap.forEach((name, income) ->{
+            System.out.println(name + ", " + income);
+        });
     }
 
     public static void main(String[] args) {
