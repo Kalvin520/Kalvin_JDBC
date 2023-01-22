@@ -1,4 +1,4 @@
-package ch10;
+package ch3;
 
 public class Outer {
     private int i = 0;

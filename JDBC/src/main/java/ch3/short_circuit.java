@@ -1,4 +1,4 @@
-package ch10;
+package ch3;
 
 public class short_circuit {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 /**
  * This Class shows how to create a Person by name and Nationality
  */
-package ch10;
+package ch3;
 public class Person {
     private String name;
     private Nationality homeland;
