@@ -19,6 +19,8 @@ public class Parameterized_Statememt {
             int price = Integer.parseInt(rs.getString("price"));
             //JOptionPane.showMessageDialog(null, title + " " + vname + " " + price); //or create New Video Class execute struct
             JOptionPane.showMessageDialog(null, new Video(title, vname, price));
+        }else {
+            JOptionPane.showMessageDialog(null,"Video not found...");
         }
         closeDB();
     }
