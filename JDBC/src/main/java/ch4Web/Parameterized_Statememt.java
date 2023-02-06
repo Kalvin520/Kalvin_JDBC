@@ -13,6 +13,7 @@ public class Parameterized_Statememt {
         PreparedStatement pps = c.prepareStatement(sql_statememt);
         pps.setString(1,name);
         ResultSet rs = pps.executeQuery();
+
         if (rs.next()){
             int title = Integer.parseInt(rs.getString("videoId"));
             String vname = rs.getString("videoName");
@@ -22,6 +23,7 @@ public class Parameterized_Statememt {
         }else {
             JOptionPane.showMessageDialog(null,"Video not found...");
         }
+
         closeDB();
     }
 
