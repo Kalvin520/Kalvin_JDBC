@@ -5,7 +5,6 @@ import java.sql.*;
 
 public class Parameterized_Statememt {
     private static Connection c;
-
     public static void main(String[] args) throws SQLException,ClassNotFoundException{
         initializeDB();
         String name = JOptionPane.showInputDialog("Find a video by name.");
@@ -23,7 +22,6 @@ public class Parameterized_Statememt {
         }else {
             JOptionPane.showMessageDialog(null,"Video not found...");
         }
-
         closeDB();
     }
 
